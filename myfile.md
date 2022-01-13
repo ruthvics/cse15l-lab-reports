@@ -21,11 +21,11 @@
 
 Write in notes – brainstorm: what are `some reasons` why it be useful that the act of commiting changes and the act of pushing them are in separate steps?
 
-...
-# code block
-system.out.println("hello wrld");
-...
+
+....# code block
+....system.out.println("hello wrld");
+
 
 ![Image](https://upload.wikimedia.org/wikipedia/commons/4/44/Geisel_Library%2C_UCSD.jpg)
 
-[Link](https://jpolitz.github.io/cse-15l-lab-report/)
+[Lab report page](https://jpolitz.github.io/cse-15l-lab-report/)
