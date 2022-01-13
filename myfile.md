@@ -6,7 +6,7 @@
 >Write down in notes – Try all of the formatting in the “Basic Syntax” part of the markdown cheat >sheet(https://www.markdownguide.org/cheat-sheet/) above; everyone should screenshot their page that >uses all of these.
 
 * list 1
-* list 2
+* list 2.1
 * list 3
 * list 4
 * list 5
