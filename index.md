@@ -1,2 +1,3 @@
-Hey!
-This is my new edit!
+# Ruthvicsai Sivakumar
+## Lab 1
+*GitHub pages creation*
