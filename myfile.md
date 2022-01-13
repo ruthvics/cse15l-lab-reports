@@ -21,7 +21,11 @@
 
 Write in notes – brainstorm: what are `some reasons` why it be useful that the act of commiting changes and the act of pushing them are in separate steps?
 
-····system.out.println("hello wrld");
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
 
 
 ![Image](https://upload.wikimedia.org/wikipedia/commons/4/44/Geisel_Library%2C_UCSD.jpg)
