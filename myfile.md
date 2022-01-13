@@ -33,5 +33,4 @@ print 'indent 4 spaces'
 [Lab report page](https://jpolitz.github.io/cse-15l-lab-report/)
 
 [Link][1]
-⋮
 [1]: https://podcast.ucsd.edu/
