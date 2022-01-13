@@ -35,4 +35,3 @@ print 'indent 4 spaces'
 [Link][1]
 ⋮
 [1]: https://podcast.ucsd.edu/
-[2]: https://ucsdguardian.org/2018/06/04/ucsd-library-accepting-food-donations-instead-of-payment-for-outstanding-fines/
