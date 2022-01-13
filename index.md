@@ -21,6 +21,6 @@
 
 Write in notes – brainstorm: what are `some reasons` why it be useful that the act of commiting changes and the act of pushing them are in separate steps?
 
-...
-system.out.println("hello wrld");
-...
+
+...system.out.println("hello wrld");
+
