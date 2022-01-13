@@ -22,4 +22,26 @@ $ ssh cs15lwi22zz@ieng6.ucsd.edu
 
 2. Type in yes if asked about continuing to connect. 
 
-3. It will then prompt you 
+3. It will then prompt you for your password. Remember that it might not look like you are entering anything into your password when you are typing, but it is being entered. 
+
+4. Once logged in, it will look something like this. 
+![Image](VScodeSsh.png)
+
+---
+## Trying Commands
+
+Here are a couple commands you could try in your terminal. 
+
+
+- ```ls ```(lists all files)
+- ```ls -a ``` (lists all hidden files)
+-  ```ls -l ``` (lists all files and more information)
+- ```cd ``` (move to certain directory)
+-  ``` touch ``` (creates a file)
+-   ```  mkdir ``` (creates a directory)
+-   ```  exit ``` (exits the remote session)
+
+There are many more commands but these are a few of the useful everyday ones. A couple examples of what you should expect are attached below. 
+
+![Image](VScodeCommands.png)
+
