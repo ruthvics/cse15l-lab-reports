@@ -31,3 +31,8 @@ print 'indent 4 spaces'
 ![Image](https://upload.wikimedia.org/wikipedia/commons/4/44/Geisel_Library%2C_UCSD.jpg)
 
 [Lab report page](https://jpolitz.github.io/cse-15l-lab-report/)
+
+[Link][1]
+
+
+[1]: https://podcast.ucsd.edu/
