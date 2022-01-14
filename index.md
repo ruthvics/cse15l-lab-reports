@@ -45,11 +45,25 @@ There are many more commands but these are a few of the useful everyday ones. A 
 
 ![Image](VScodeCommands.png)
 
+---
 ## Moving Files with scp
 
 There is an easy way to move files from your machine to your ieng6 computer. One way to do this is with ```  scp ```  command. 
 
 1. First make a file on your lcoal machine in your terminal with the ``` touch ``` command. For example: ``` touch hello.txt``` to create a text file called hello. 
 
-2. In the directory that the file is in type in the command ``` scp hello.txt cs15lwi22zz@ieng6.ucsd.edu:~/ ```. `Make sure zz is replaced by your user and that in place of hello.txt your file is there.`
+2. In the directory that the file is in type in the command ``` scp hello.txt cs15lwi22zz@ieng6.ucsd.edu:~/ ```. **Make sure zz is replaced by your user and that in place of hello.txt your file is there.**
+![Image](VScodescp.png)
 
+
+3. You will be prompted to sign in with your password and do so. Afterwards, ``` ls ``` should reveal your file in the server.
+![Image](VScodescpex.png)
+![Image](VScodescpssh.png)
+
+---
+## Setting SSH key
+SSH keys make signing into the ssh much easier and gets rid of the need of a password every time. We will use a program called ssh-keygen. 
+
+1. Type in ``` ssh-keygen``` into the terminal. and you should get some art. 
+
+2. 
