@@ -64,6 +64,33 @@ There is an easy way to move files from your machine to your ieng6 computer. One
 ## Setting SSH key
 SSH keys make signing into the ssh much easier and gets rid of the need of a password every time. We will use a program called ssh-keygen. 
 
-1. Type in ``` ssh-keygen``` into the terminal. and you should get some art. 
+1. Type in ``` ssh-keygen``` into the terminal on your computer. You should get some art. Similar to what is shown below. 
+```
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
 
-2. 
+2. Now the key generated needs to be shared to your server. We can do this by using scp. But first you need to make a directory to put the key in. So log into your machine and create a directory called .ssh with the follwing command ```mkdir .ssh```. Then log out of your server and in your local machine, scp the file named ``` id_rsa.pub ```. Make sure you are in the same directory as that file or you have the full path name when you ssh like this: ```$ scp /Users/sam/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys```. You also need to make sure to add the directory on the server which you want to drop the file in. 
+
+3. Now you should be able to log into your server without having to put in the password.
+
+---
+## Optimizing Remote Running
+
+* One way to make remote running easier doing a certain command on the server and then logging out right after The way to do this is by adding " " around the command you want done after ssh. For example: ``` $ ssh cs15lwi22xx@ieng6.ucsd.edu "ls" ```. In the image below you can see how the ls command listed all the files in my home directory and then logged out and returned to my local machine.
+
+![Image](VScodesshop.png)
+
+
+* Another way is to use semicolons and run many commands on the same line. For example: ```$ cp WhereAmI.java OtherMain.java; ls; java WhereAmI; mkdir hello```. This would do all of these in order.
+
+* A useful way to quickly refresh long commands that you use often is by using the arrow keys on your keyboard to go into your command history. This is useful if you are using the same long command over and over. It is also helpful if you forget what the exact command was. 
