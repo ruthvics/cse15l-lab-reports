@@ -16,7 +16,7 @@ The Sympotm was that the program was sent into a infinite loop:
 ![Image](lr202.png)
 
 ### & The Bug
-The Symptom was essentally an infinite loop which was casued by a new line character after the last link in the file. This made the program keep looking and threw itself into a loop since the size of the markdown was not set. Adding a case where the program would stop at the last ")" in the file stopped this from happening. The only was to quit the loop was to stop the program which I did with ```CTRL + C ```.
+The Symptom was essentally an infinite loop which was casued by a new line character after the last link in the file, or any character. This made the program keep looking and threw itself into a loop since the size of the markdown was not set. Adding a case where the program would stop at the last ")" in the file stopped this from happening. The only was to quit the loop was to stop the program which I did with ```CTRL + C ```.
 
 ## Second Issue
 ---
