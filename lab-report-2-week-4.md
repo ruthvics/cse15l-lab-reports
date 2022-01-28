@@ -8,7 +8,7 @@
 ![Image](lr201.png)
 
 ###  The File Which Caused the Issue
-[The File](https://github.com/ruthvics/markdown-parse/blob/main/test3.md) 
+[The File](https://raw.githubusercontent.com/ruthvics/markdown-parse/main/test3.md) 
 
 
 ###  The symptom
@@ -24,7 +24,7 @@ The Symptom was essentally an infinite loop which was casued by a new line chara
 ![Image](lr203.png)
 
 ###  The File Which Caused the Issue
-[The File](https://github.com/ruthvics/markdown-parse/blob/main/test2.md) 
+[The File](https://raw.githubusercontent.com/ruthvics/markdown-parse/main/test2.md) 
 
 
 ###  The symptom
@@ -47,7 +47,7 @@ In the file there is an odd placement of parentheses. It is in the order of ")( 
 ![Image](lr204.png)
 
 ###  The File Which Caused the Issue
-[The File](https://github.com/ruthvics/markdown-parse/blob/main/test1.md) 
+[The File](https://raw.githubusercontent.com/ruthvics/markdown-parse/main/test1.md) 
 
 
 ###  The symptom
